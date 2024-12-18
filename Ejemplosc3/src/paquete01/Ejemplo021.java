@@ -17,6 +17,8 @@ public class Ejemplo021 {
     public static void main(String[] args) {
         // Creación de arreglo bidimensionales
         String cadenaFinal = "";
+        String cadena2 = "----------------------";
+        
         // forma 1
         int[][] arreglo1 = new int[3][4]; //
         // System.out.printf("Uso de la opción length: %d\n", arreglo1.length);
@@ -32,6 +34,7 @@ public class Ejemplo021 {
                 cadenaFinal = String.format("%sfila[%d] columna[%d] = %d\n", 
                         cadenaFinal, fila, col, arreglo1[fila][col]);
             }
+            cadenaFinal = String.format("%s%s\n", cadenaFinal, cadena2);
         }
         
         System.out.printf("%s\n", cadenaFinal);
