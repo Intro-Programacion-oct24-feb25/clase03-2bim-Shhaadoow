@@ -32,7 +32,10 @@ public class Ejemplo11 {
         4    6
         30   52
         */
-        
+        // Se usan tres arreglos ya que queremos sumar los valores de los dos 
+        // primeros arreglos, usames el último arreglo para ahí presentar la 
+        // suma de los valores de acuerdo a la posición inicial y luego aumentar
+        // para así tener un nuevo valor en cada posición.
         int valor1;
         int valor2;
         
